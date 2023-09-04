@@ -1,0 +1,92 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+	<UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v19.2.Core">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.Charts.v19.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v19.2">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.Data.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.DemoData.v19.2">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.DemoData.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Images.v19.2">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.Images.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Mvvm.v19.2">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.Mvvm.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v19.2.Core">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.Printing.v19.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v19.2">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.Utils.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Charts.v19.2">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.Xpf.Charts.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v19.2">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.Xpf.Core.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.DemoBase.v19.2">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.Xpf.DemoBase.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Docking.v19.2">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.Xpf.Docking.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v19.2">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.Xpf.Grid.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v19.2.Core">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.Xpf.Grid.v19.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Layout.v19.2.Core">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.Xpf.Layout.v19.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.LayoutControl.v19.2">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.Xpf.LayoutControl.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Printing.v19.2">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.Xpf.Printing.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.PropertyGrid.v19.2">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.Xpf.PropertyGrid.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Ribbon.v19.2">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.Xpf.Ribbon.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Scheduling.v19.2">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.Xpf.Scheduling.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.Office2016White.v19.2">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.Xpf.Themes.Office2016White.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v19.2">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.XtraBars.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v19.2">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.XtraEditors.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v19.2">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.XtraGrid.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v19.2">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.XtraLayout.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v19.2">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.XtraPrinting.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v19.2.Core">
+      <HintPath>..\..\WorkGit\LogWEPlatForm\LogWE\ThirdLib\DevExpress.XtraScheduler.v19.2.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
