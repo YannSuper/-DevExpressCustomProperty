@@ -1,4 +1,4 @@
-![输入图片说明](dialog.png)# DevExpress-CustomProperty
+# DevExpress-CustomProperty
 
 #### 介绍
 
